@@ -1,4 +1,4 @@
-package techlab.inicio;
+package techlab.inicio.productos;
 
 public class Producto {
 

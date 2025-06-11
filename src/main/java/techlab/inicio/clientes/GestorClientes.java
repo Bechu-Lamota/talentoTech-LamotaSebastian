@@ -1,4 +1,4 @@
-package techlab.inicio;
+package techlab.inicio.clientes;
 
 import java.util.ArrayList;
 import java.util.List;

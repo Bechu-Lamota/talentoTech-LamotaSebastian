@@ -1,4 +1,4 @@
-package techlab.inicio;
+package techlab.inicio.clientes;
 
 public class Cliente {
 
