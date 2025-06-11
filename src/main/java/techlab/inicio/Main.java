@@ -107,8 +107,8 @@ public class Main {
     //Operaciones sobre PRODUCTOS
         private static void agregarProducto() {
             String nombre = Helpers.leerTexto(sc, "Nombre: ");
-            double precio = Helpers.leerDouble(sc, "Precio");
-            int    stock  = Helpers.leerEntero(sc, "Stock");
+            double precio = Helpers.leerDouble(sc, "Precio: ");
+            int    stock  = Helpers.leerEntero(sc, "Stock: ");
             productoService.agregarProducto(new Producto(nombre, precio, stock));
             System.out.println("Producto agregado.");
         }
